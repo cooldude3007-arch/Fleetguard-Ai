@@ -1,0 +1,91 @@
+.app {
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  background: #f6f8fb;
+  min-height: 100vh;
+}
+
+.header {
+  margin-bottom: 16px;
+}
+
+.nav {
+  margin-bottom: 20px;
+}
+
+.nav button {
+  margin-right: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.content {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.agent-panel {
+  width: 360px;
+  background: white;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th {
+  background: #eef2f7;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+button {
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #eef2f7;
+}
+
+.agent-panel {
+  width: 360px;
+  min-width: 360px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.agent-title {
+  font-size: 28px;
+  line-height: 1.2;
+  margin: 0 0 16px 0;
+  word-break: normal;
+}
+
+.agent-panel h1,
+.agent-panel h2 {
+  white-space: normal;
+}
+
+.content h1 {
+  font-size: 32px;
+  line-height: 1.2;
+}

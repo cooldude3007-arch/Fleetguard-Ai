@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f8fb;
+  color: #222;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+h2 {
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.5;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
